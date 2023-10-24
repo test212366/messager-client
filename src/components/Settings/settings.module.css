@@ -1,0 +1,163 @@
+.settings__center {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	display: flex;
+	overflow-x: hidden;
+	justify-content: center;
+	width: 100%;
+}
+.settingsItem {
+	background-color: #10121456;
+	border: 1px solid rgba(255, 255, 255, 0.041);
+	padding: 20px;
+	width: 1000px;
+}
+.settings__buttons {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+}
+.settings__buttons button {
+	position: relative;
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #121518;
+	border: 1px #1f1f1f solid;
+	color: #fff;
+	cursor: pointer;
+}
+.settings__buttons button .arrow {
+	position: absolute;
+	top: 10px;
+	right: 30%;
+	transition: 0.3s ease all;
+}
+.rotate {
+	transform: rotate(-180deg);
+}
+.settings__buttons button:last-child {
+	margin-top: 30px;
+	color: #7460f7;
+}
+.settings__user {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	background-color: #121518;
+	border: 1px solid rgba(255, 255, 255, 0.041);
+	padding: 40px 20px 20px 20px;
+	border-radius: 20px;
+	color: #fff;
+}
+.settings__status {
+	color: rgba(255, 255, 255, 0.3);
+}
+.user__info {
+	margin-left: 20px;
+}
+.settings__user {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+.settings__status {
+	margin-top: 5px;
+	font-size: 14px;
+}
+.settings__id {
+	position: absolute;
+	top: 25px;
+}
+.settings__id span {
+	color: #7460f7;
+}
+
+.settings__info {
+	font-size: 12px;
+	margin-top: 20px;
+	color: #7460f7;
+}
+.settings__show-accordion {
+	transform: translateY(-9px);
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border: #1f1f1f 1px solid;
+}
+.acardion__item button {
+	width: 100%;
+
+	z-index: 1;
+}
+.email__show {
+	display: flex;
+	justify-content: center;
+	color: rgba(255, 255, 255, 0.664);
+}
+.settings__show-accordion {
+	background-color: rgba(0, 0, 0, 0.103);
+	transition: 0.3s ease all;
+	height: 0;
+}
+.show-accordion {
+	height: 200px;
+	overflow: auto;
+}
+.show-accordion-email {
+	height: 50px;
+}
+.acardion__item {
+	overflow: hidden;
+}
+.dialog__item {
+    padding: 10px;
+    padding-top: 0;
+}
+.noneAccordion {
+	color: rgba(255, 255, 255, 0.781);
+	margin-top: 30px;
+	text-align: center;
+}
+.noneViewProfile {
+	text-decoration: none;
+}
+.confirm__exit-bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.459);
+	z-index: 20;
+	cursor: pointer;
+}
+.wrapper__confirm {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	border-radius: 20px;
+	transform: translate(-50%, -50%);
+	background-color: #121518;
+	color: #fff;
+	padding: 20px;
+	z-index: 21;
+	display: flex;
+
+	flex-direction: column;
+}
+.wrapper__confirm button {
+	width: 100%;
+	padding: 5px 10px 10px 10px;
+	border-radius: 20px;
+	border: none;
+	background-color: #1f1f1fb2;
+	color: #7460f7;
+	cursor: pointer;
+}
+.close__alert {
+	color: #7460f7;
+	cursor: pointer;
+	font-size: 13px;
+}

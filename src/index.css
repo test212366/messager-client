@@ -1,0 +1,145 @@
+@import "~normalize.css";
+ 
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+		"Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #0e1013;
+	overflow: hidden;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.messages-enter {
+	opacity: 0;
+	transform: translateX(-100%);
+}
+
+.messages-enter-active {
+	opacity: 1;
+	transform: scale(1);
+	transition: opacity 300ms, transform 300ms;
+}
+.input-enter {
+	opacity: 0;
+	transform: translateY(100%);
+}
+
+.input-enter-active {
+	opacity: 1;
+	transform: scale(1);
+	transition: opacity 300ms, transform 300ms;
+}
+.headMess-enter {
+	opacity: 0;
+	transform: translateY(-100%);
+}
+
+.headMess-enter-active {
+	opacity: 1;
+	transform: scale(1);
+	transition: opacity 300ms, transform 300ms;
+}
+.page {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.page-enter {
+	opacity: 0;
+	transform: scale(1.1);
+}
+
+.page-enter-active {
+	opacity: 1;
+	transform: scale(1);
+	transition: opacity 300ms, transform 300ms;
+}
+
+.page-exit {
+	opacity: 1;
+	transform: scale(0);
+}
+
+.page-exit-active {
+	opacity: 0;
+	transform: scale(0.9);
+	transition: opacity 300ms, transform 300ms;
+}
+
+.alert-enter {
+	opacity: 0;
+	transform: scale(0.9);
+}
+.alert-enter-active {
+	opacity: 1;
+	transform: translateX(0);
+	transition: opacity 300ms, transform 300ms;
+}
+.alert-exit {
+	opacity: 1;
+}
+.alert-exit-active {
+	opacity: 0;
+	transform: scale(0.9);
+	transition: opacity 300ms, transform 300ms;
+}
+.alert-back-enter {
+	opacity: 0;
+}
+.alert-back-enter-active {
+	opacity: 1;
+	transform: translateX(0);
+	transition: opacity 300ms, transform 300ms;
+}
+.alert-back-exit {
+	opacity: 1;
+}
+.alert-back-exit-active {
+	opacity: 0;
+
+	transition: opacity 300ms, transform 300ms;
+}
+
+.showPersonalManager-enter {
+	transform: translateX(100%);
+}
+.showPersonalManager-enter-active {
+	transform: translateX(0);
+	transition: transform 300ms;
+}
+.showPersonalManager-exit {
+	transform: translateX(0);
+}
+.showPersonalManager-exit-active {
+	transform: translateX(100%);
+	transition: transform 300ms;
+}
+.lazyLoadingTr {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.lazyLoadingTr p {
+	color: #fff;
+}
+@import "./components/Messages/messages.module.css";
+@import "./components/handlersC/handlersC.module.css";
+@import "./components/Auth/aurh.module.css";
+@import "./components/Register/register.module.css";
+@import "./components/Settings/settings.module.css";
+@import "./responsive.module.css";
+@import "./theme.module.css";
+
+ 

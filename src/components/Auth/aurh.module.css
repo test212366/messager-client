@@ -1,0 +1,130 @@
+.container__auth {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	background-color: #0e1013;
+	align-items: center;
+	justify-content: center;
+}
+.wrapper__buttons {
+	transform: translateY(-200px);
+	display: flex;
+	width: 500px;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 20px;
+}
+.wrapper__buttons p {
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+	margin: 0;
+}
+.wrapper__buttons h1 {
+	text-align: center;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.705);
+	font-weight: 400;
+	margin-bottom: 100px;
+}
+.wrapper__buttons h1 span {
+	color: #7460f7;
+}
+.login {
+	position: relative;
+	padding: 10px;
+	border-radius: 20px;
+	border: 1px solid #3f3f3f;
+	color: #fff;
+	margin-bottom: 10px;
+	cursor: pointer;
+	background-color: rgba(219, 219, 219, 0);
+	transition: 0.3s ease all;
+}
+.login__logo svg {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	stroke: #3f3f3f;
+	transition: 0.3s ease all;
+}
+.login:hover {
+	color: #4e4e4e;
+	border-color: #7460f7;
+}
+.login:hover svg {
+	stroke: #7460f7;
+}
+.or {
+	align-items: center;
+	color: rgba(255, 255, 255, 0.418);
+	justify-content: center;
+	display: flex;
+	margin-bottom: 10px;
+}
+.or hr {
+	margin-top: 13px;
+	border-color: #3f3f3f;
+	width: 45%;
+}
+.registration {
+	position: relative;
+	padding: 10px;
+	border-radius: 20px;
+	border: none;
+	color: #fff;
+	margin-bottom: 10px;
+	cursor: pointer;
+	background-color: #7460f7;
+	transition: 0.3s ease all;
+}
+.registration svg {
+	stroke: #fff;
+	transition: 0.3s ease all;
+}
+.registration:hover {
+	color: black;
+}
+.registration:hover svg {
+	stroke: black;
+}
+.auth__google {
+	margin-top: 20px;
+	position: relative;
+	padding: 10px;
+	border-radius: 20px;
+	border: 1px solid #3f3f3f;
+	color: #fff;
+	margin-bottom: 10px;
+	cursor: pointer;
+	background-color: rgba(219, 219, 219, 0);
+	transition: 0.3s ease all;
+}
+.auth__google:hover {
+	color: #4e4e4e;
+	border-color: #7460f7;
+}
+.auth__google span {
+	color: #7460f7;
+}
+.logoAUTH {
+	position: absolute;
+	top: 20px;
+	stroke: #fff;
+	left: 20px;
+}
+.info__footer {
+	position: fixed;
+	bottom: 50px;
+	font-size: 12px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: rgba(255, 255, 255, 0.603);
+}
+.info__footer span {
+	color: #7460f7;
+}
+.info__footer.black {
+	color: #000;
+}

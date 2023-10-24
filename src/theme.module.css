@@ -1,0 +1,223 @@
+.light {
+	background-color: #fff;
+}
+ 
+.navbar.light{ 
+	border-right: 1px solid #0000004f !important;
+	
+}
+.wrapper__navbar.light {
+	border-right: 1px solid #0000004f !important;
+}
+.light__theme-theme {
+	background-color: rgb(231, 231, 231);
+	border: 1px solid #fff !important;
+ 
+	margin: 1px 1px 0 1px;
+ 
+}
+.light__theme-theme:last-child {
+	border: none;
+	margin: 0px 1px 1px 1px;
+}
+.black svg {
+	fill: #7460f7  !important;
+ 
+}
+.black__navbar svg {
+	stroke: #0000008e;
+}
+ .black__navbarI svg {
+	 fill: #0000008e;
+ }
+ .black__navbar svg:hover {
+	stroke: #7460f7 ;
+}
+ .black__navbarI svg:hover {
+	 fill: #7460f7 ;;
+ }
+ .second__light {
+	border-color: #fff;
+}
+.light__logo-theme {
+	stroke: #000000;
+	border-bottom-color: rgb(185, 185, 185);
+}
+ 
+.navbar .light {
+	border-right-color: #7460f7;
+}
+.messages__all.light{
+	border-right-color: #0000004f;
+	border-left-color: #0000004f;
+}
+.select__chats.black {
+	color: rgba(0, 0, 0, 0.664);
+}
+.home__messages.black {
+	color: rgba(0, 0, 0, 0.788);
+}
+.home__input-search.light {
+	background-color: #ededee;
+	color: black;
+}
+.search__logo.light svg {
+	stroke: #7460f7;
+}
+.search__logo.light svg:hover {
+	stroke: black;
+}
+.pinned.black {
+	color: rgba(0, 0, 0, 0.788) !important;
+}
+.startChats.black {
+	color: black;
+}
+.message__name.black p {
+	color: black;
+}
+.user__head.light {
+	background-color: #fff;
+	border-bottom-color: #0000004f;
+	 
+}
+.seeMoreTitle.black {
+	color: #000;
+}
+.seeMoreSubtitle.black {
+	color: #000;
+}
+.seeMoreDescription.black {
+	color: #000;
+}
+.seeMoreSubtitle.black {
+	color: #000;
+}
+.LogoRease.black {
+	color: black;
+}
+.user__name.black {
+	color: black;
+}
+.user__online.black {
+	color: black !important;
+}
+.user__status.black {
+	color: rgba(0, 0, 0, 0.63)!important;
+}
+.chat__input-target.black {
+    background-color: #ededee;
+	box-shadow: none;
+	color: black;
+}
+.send.black svg{
+	fill: black !important;
+	stroke: black;
+}
+.info.light {
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+	background-color: #fff;
+	color: black;
+}
+.send.black svg:hover {
+	stroke: none;
+	fill: #7460f7;
+}
+.typed.light small{
+	color: black;
+}
+.wrapper__contacts.light {
+	background-color: #fff;
+}
+.typed.light {
+
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.message__descripti.false.light__mess {
+	background-color: #ededee;
+	color: black;
+}
+.blackName {
+	color: black !important;
+}
+.ligth__personal {
+	background-color: #fff;
+}
+.presonal__head.black p {
+	color: black;
+}
+.presonal__head.black {
+	border-bottom-color: #0000004f;
+}
+.created__wrapper.light {
+	background-color: #fff;
+}
+.created__form.black p{
+	color: black;
+}
+.user__head.contacts__user-head.light {
+	background-color: #fff;
+}
+.user__head.contacts__user-head.light p {
+	color: black;
+}
+.created__form.black input {
+	background-color: rgb(224, 224, 224);
+	border: none;
+	color: black;
+}
+.user__set-user-status.light {
+	background-color: rgb(214, 214, 214);
+	color: black;
+	border: none;
+}
+.settingsItem.light {
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.settings__user.light {
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+	color: black;
+}
+.settings__status.black {
+	color: rgba(0, 0, 0, 0.63);
+}
+.acardion__item.light button{
+	background-color: #fff;
+	color: black;
+}
+.noneAccordion.black {
+	color: black;
+}
+.settings__show-accordion.email__show.black {
+	color: black;
+}
+.settings__show-accordion.email__show.show-accordion-email.black {
+	color: black;
+}
+.lightButtonExit button {
+	background-color: #fff;
+	color: black;
+}
+.wrapper__confirm.light {
+	background-color: #fff;
+	color: black;
+}
+.wrapper__confirm.light button {
+	background-color: #fff;
+	transition: .3s ease all;
+	color: black;
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.wrapper__confirm.light button:hover {
+	color: #7460f7;
+}
